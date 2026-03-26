@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "9",
 
   // Services
   services: [
@@ -79,9 +79,15 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Terry Tarbox", rating: 5, text: "Ben and James from Totem Landscaping came and laid a porcalain tile patio in my garden. It looks fantastic and was exactly the look i wanted. Great guys, really professional and wi would highly recommend them. ", date: "7 months ago" },
+    { name: "Matthew Bates", rating: 5, text: "Excellent experience with Ben and his team. They did a great job in our small garden and we will enjoy it for years to come. ", date: "10 months ago" },
+    { name: "Grayson Martin", rating: 5, text: "We had someone come out to our address to measure up for laying turf and a patio. Details were took and we were told he would come back to us with a quote. This was over a week ago. I then text to chase it up, explained who I was and asked …  ", date: "11 months ago" },
+    { name: "Lisa Campbell", rating: 5, text: "I cannot recommend highly enough Ben and James and the work that they carried out for me. I asked for a full garden makeover, from new fencing, raised beds to several …  ", date: "2 years ago" },
+    { name: "Linda Norris", rating: 5, text: "We are delighted with the patio, pathway and front wall and fencing that James and Ben built for us. They were very professional and worked well as a team. We were consulted at every stage of the work. Little extra touches were put to the …  ", date: "3 years ago" },
+    { name: "Graeme McDermott", rating: 5, text: "We used Ben and James recently to install some real grass and artificial grass, along with a new patio and pergola. The guys worked so hard in some terrible weather, with quite a few challenges and always cheery. Kept us informed all the …  ", date: "3 years ago" },
+    { name: "Holli Smith", rating: 5, text: "We can't thank James and Ben enough for the 5* quality transformation to our garden. We didn't really know what to do with the space and needed to make the garden …  ", date: "7 years ago" },
+    { name: "Angela Lamden", rating: 5, text: "Totem Property Services have made me and my cat very happy.   They built the perfect sized catio to allow my cat to enjoy the outside whilst being safe, within the size restrictions that I applied.  They adjusted it where  I needed it to …  ", date: "7 years ago" },
+    { name: "Marie Mcmanus", rating: 5, text: "I cannot thank James & Ben enough they have transferred my back & front garden it looks amazing 🤩 they worked really hard & both are perfectionists at what they do thank you so much James & Ben from Marie … ", date: "2 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
